@@ -11,7 +11,7 @@
     "http"
   ],
   "paths": {
-    "/suggest-products": {
+    "/api/wishlist/suggest-products": {
       "post": {
         "description": "",
         "parameters": [

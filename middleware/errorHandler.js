@@ -1,6 +1,6 @@
-import logger from '../utils/logger.js';
+import logger from "../utils/logger.js";
 
 export const errorHandler = (err, req, res, next) => {
-    logger.error(err.stack);
-    res.status(500).json({ error: `Server Error`});
+  logger.error(err.stack);
+  res.status(500).json({ error: `Server Error` });
 };
